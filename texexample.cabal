@@ -1,0 +1,20 @@
+cabal-version:      2.4
+name:               texexample
+version:            0.1.0.0
+
+author:             Oleksii Divak
+maintainer:         frozenwitness@gmail.com
+
+library
+  exposed-modules:  Texexample
+
+  other-modules:    Graphics.OpenGL
+
+  build-depends:    base       >= 4.10
+                  , bytestring >= 0.11
+                  , gl
+                  , GLFW-b
+
+  hs-source-dirs:   src
+
+  default-language: Haskell2010
